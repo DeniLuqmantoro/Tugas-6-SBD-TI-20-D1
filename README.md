@@ -42,6 +42,16 @@
   
   Kemudian lakukan recovery dengan sql seperti pada gambar dibawah ini, dan lihat lagi hasilnya.
   ![image](https://user-images.githubusercontent.com/101716699/171353174-12581744-f142-48f0-9abc-bbfb49152efc.png)
+
+3. Lakukan proses backup dan recovery dengan sqldump dari database tugas seblumnya!
+   a. Jalankan shell atau commad-prompt dan ketikkan perintah berikut untuk memulai dump database MySQLDUMP –u root –p denil_312010071 > backup2_deniluqmantoro_312010071.sql
+   ![image](https://user-images.githubusercontent.com/101716699/171362306-60cc2f7f-1881-4214-af5a-b29ba7f05493.png)
+   
+   b. Data yang telah di-backup dapat di restrore kembali ke dalam database dengan perintah mysqldump -u root -p denil_312010071 < c:\xampp\mysql\bin\backup2_deniluqmantoro_312010071.sql
+   ![image](https://user-images.githubusercontent.com/101716699/171362990-a14ca927-5990-4373-be7a-95e0654bff8e.png)
+   ![image](https://user-images.githubusercontent.com/101716699/171363148-d1fd4c1b-d839-495d-b36c-d1309d089981.png)
+   ![image](https://user-images.githubusercontent.com/101716699/171363224-1aad9f0a-6e3f-41cb-a3dd-f2a2069ba969.png)
+
   
 
 
