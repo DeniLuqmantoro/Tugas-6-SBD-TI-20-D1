@@ -55,7 +55,9 @@
 
 4. Tulisakan script cron job untuk melakukan backup otomatis setiap hari minggu jam 12 malam!
 
-   <b>0 0 * * 7</b>
+   crontab –e
+
+   0 0 * * 7myqldump -u root -p denil_312010071>denil_312010071_backup.sql
 
 
 
